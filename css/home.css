@@ -1,15 +1,74 @@
+#sign-up {
+  color: blue;
+  background-color: green;
+  border-radius: 10%;
+}
+#sign-in {
+  color: blue;
+  background-color: green;
+  border-radius: 10%;
+}
 body {
-  display: flex;
   margin: 0;
   height: 100%;
   width: 100%;
-}  
-p {
-  margin: 20px;
-  text-align: right;
-}    
+}
+h1, p {
+  display: inline-block;
+}
+h1 {
+  padding-right: 70%;
+}
 img {
   display: flex;
   height: 100%;
   width: 100%;
+  margin: 0 auto;
+}
+/*FOOTER*/
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: green;
+  text-align: right;
+  padding: 5px;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+.fab {
+  padding: 15px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-github {
+  background: black;
+  color: white;
+  width: 40%;
+  height: 50%;
+  border-radius: 50%;
+}
+.fa-linkedin {
+  background: #0077b5;
+  color: white;
+  width: 40%;
+  height: 50%;
+  border-radius: 50%;
+}
+.fa-twitter {
+  background: white;
+  color: #1da1f2;
+  width: 40%;
+  height: 50%;
+  border-radius: 50%;
 }
